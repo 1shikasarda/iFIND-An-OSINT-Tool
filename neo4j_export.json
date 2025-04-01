@@ -6,7 +6,7 @@
                 "User"
             ],
             "properties": {
-                "username": "nitish"
+                "username": "nitishghormade"
             }
         },
         {
@@ -15,9 +15,9 @@
                 "SocialMediaAccount"
             ],
             "properties": {
-                "platform": "Dev.to",
-                "username": "nitish",
-                "profile_url": "https://dev.to/nitish"
+                "platform": "GitHub",
+                "username": "nitishghormade",
+                "profile_url": "https://github.com/nitishghormade"
             }
         },
         {
@@ -26,29 +26,29 @@
                 "SocialMediaAccount"
             ],
             "properties": {
-                "platform": "GitHub",
-                "username": "nitishwebgentle",
-                "profile_url": "https://github.com/nitishwebgentle"
+                "platform": "LinkedIn",
+                "username": "",
+                "profile_url": "https://www.linkedin.com/in/nitish-ghormade"
             }
         },
         {
-            "id": "u4",
-            "labels": [
-                "User"
-            ],
-            "properties": {
-                "username": "nitishwebgentle"
-            }
-        },
-        {
-            "id": "a5",
+            "id": "a4",
             "labels": [
                 "SocialMediaAccount"
             ],
             "properties": {
-                "platform": "Buy Me a Coffee",
-                "username": "nitish",
-                "profile_url": "https://buymeacoffee.com/nitish"
+                "platform": "Instagram",
+                "username": "nitish_ghormade",
+                "profile_url": "https://www.instagram.com/nitish_ghormade"
+            }
+        },
+        {
+            "id": "u5",
+            "labels": [
+                "User"
+            ],
+            "properties": {
+                "username": "nitish_ghormade"
             }
         },
         {
@@ -57,9 +57,9 @@
                 "SocialMediaAccount"
             ],
             "properties": {
-                "platform": "Instagram",
-                "username": "nixish",
-                "profile_url": "https://www.instagram.com/nixish"
+                "platform": "YouTube",
+                "username": "UpskillHacking",
+                "profile_url": "https://www.youtube.com/@UpskillHacking"
             }
         },
         {
@@ -68,40 +68,7 @@
                 "User"
             ],
             "properties": {
-                "username": "nixish"
-            }
-        },
-        {
-            "id": "a8",
-            "labels": [
-                "SocialMediaAccount"
-            ],
-            "properties": {
-                "platform": "HackerOne",
-                "username": "nitish",
-                "profile_url": "https://hackerone.com/nitish"
-            }
-        },
-        {
-            "id": "a9",
-            "labels": [
-                "SocialMediaAccount"
-            ],
-            "properties": {
-                "platform": "Reddit",
-                "username": "nitish",
-                "profile_url": "https://reddit.com/user/nitish"
-            }
-        },
-        {
-            "id": "a10",
-            "labels": [
-                "SocialMediaAccount"
-            ],
-            "properties": {
-                "platform": "Gravatar",
-                "username": "nitish",
-                "profile_url": "https://gravatar.com/nitish"
+                "username": "UpskillHacking"
             }
         }
     ],
@@ -126,63 +93,51 @@
         },
         {
             "id": "r4",
-            "type": "CONNECTED_TO",
+            "type": "HAS_ACCOUNT",
             "startNode": "u1",
-            "endNode": "u4"
+            "endNode": "a4"
         },
         {
             "id": "r5",
             "type": "CONNECTED_TO",
-            "startNode": "u4",
-            "endNode": "a3"
+            "startNode": "a2",
+            "endNode": "a4"
         },
         {
             "id": "r6",
-            "type": "HAS_ACCOUNT",
+            "type": "CONNECTED_TO",
             "startNode": "u1",
-            "endNode": "a5"
+            "endNode": "u5"
         },
         {
             "id": "r7",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a6"
+            "type": "CONNECTED_TO",
+            "startNode": "u5",
+            "endNode": "a4"
         },
         {
             "id": "r8",
-            "type": "CONNECTED_TO",
-            "startNode": "a5",
+            "type": "HAS_ACCOUNT",
+            "startNode": "u1",
             "endNode": "a6"
         },
         {
             "id": "r9",
             "type": "CONNECTED_TO",
-            "startNode": "u1",
-            "endNode": "u7"
+            "startNode": "a2",
+            "endNode": "a6"
         },
         {
             "id": "r10",
             "type": "CONNECTED_TO",
-            "startNode": "u7",
-            "endNode": "a6"
+            "startNode": "u1",
+            "endNode": "u7"
         },
         {
             "id": "r11",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a8"
-        },
-        {
-            "id": "r12",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a9"
-        },
-        {
-            "id": "r13",
-            "type": "HAS_ACCOUNT",
-            "startNode": "u1",
-            "endNode": "a10"
+            "type": "CONNECTED_TO",
+            "startNode": "u7",
+            "endNode": "a6"
         }
     ]
 }
